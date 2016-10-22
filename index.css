@@ -1,0 +1,62 @@
+
+/* Tabs */
+.tabs {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#tabRoot {
+  margin: 10px;
+  width: 300px;
+  background-color: yellow;
+}
+
+.tabs > li {
+  display: inline-block;
+  border: 3px solid black;
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+  border-top-left-radius: 35%;
+  border-top-right-radius: 35%;
+}
+
+.tabs > li:hover {
+  font-weight: bold;
+  color: rgba(0,0,0,0);
+  background-image: url("trumptab.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.article {
+  font-size: 18px;
+  text-align: center;
+  border: 3px solid black;
+  margin: auto;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+/* Clock */
+
+#clockRoot{
+  margin: 10px;
+  border: 3px solid black;
+  background-image: url("weather.jpg");
+  background-size: 100% 100%;
+  width: 300px;
+  color: white;
+  border-radius: 10px;
+}
+
+.clock {
+  font-size: 22px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 10px;
+}
